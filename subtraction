@@ -1,0 +1,25 @@
+cd E:\Documents\NetBeansProjects\Subtractions; "JAVA_HOME=C:\\Program Files\\Java\\jdk-21" cmd /c "\"C:\\Users\\TONNY OS\\Desktop\\NetBeans-21\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-21\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.subtractions.Subtraction -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Users\\TONNY OS\\Desktop\\NetBeans-21\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+---------------------< com.mycompany:Subtractions >---------------------
+Building Subtractions 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ Subtractions ---
+skip non existing resourceDirectory E:\Documents\NetBeansProjects\Subtractions\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ Subtractions ---
+Nothing to compile - all classes are up to date
+
+--- exec:3.1.0:exec (default-cli) @ Subtractions ---
+What is 7 - 5?
+
+2
+Correct! Well done.
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  01:12 min
+Finished at: 2024-06-07T12:31:44+03:00
+------------------------------------------------------------------------
